@@ -27,6 +27,7 @@ export const ToastContainer = ({
       maxHeight: '100%',
       overflowX: 'hidden',
       overflowY: 'auto',
+      zIndex: 1050,
       padding: gutter,
       pointerEvents: Children.count(children) ? 'auto' : 'none',
       position: 'fixed',
